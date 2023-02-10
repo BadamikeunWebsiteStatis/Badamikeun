@@ -4514,9 +4514,9 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #ffffff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid #d0ef48;
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -7676,6 +7676,10 @@ textarea.form-control-lg {
   text-align: center !important;
 }
 
+.text-rata {
+  text-align: justify !important;
+}
+
 .text-decoration-none {
   text-decoration: none !important;
 }
@@ -7772,7 +7776,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #373b3e !important;
 }
 
 .text-black-50 {
@@ -11533,6 +11537,7 @@ header.masthead .masthead-heading {
   opacity: 0.3;
 }
 
+
 .timeline {
   position: relative;
   padding: 0;
@@ -11626,7 +11631,7 @@ header.masthead .masthead-heading {
 }
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
-  margin-bottom: 0;
+  margin-bottom: 1;
 }
 
 @media (min-width: 768px) {
