@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "judul": "A1 reading\n\n\nReading practice to help you understand simple information, words and sentences about known topics. Texts include posters, messages, forms and timetables.",
+    "kategori": "Reading practice to help you understand simple information, words and sentences about known topics. Texts include posters, messages, forms and timetables."
+  },
+  {
+    "id": 2,
+    "judul": "A2 reading\n\n\nReading practice to help you understand simple texts and find specific information in everyday material. Texts include emails, invitations, personal messages, tips, notices and signs.",
+    "kategori": "Reading practice to help you understand simple texts and find specific information in everyday material. Texts include emails, invitations, personal messages, tips, notices and signs."
+  },
+  {
+    "id": 3,
+    "judul": "B1 reading\n\n\nReading practice to help you understand texts with everyday or job-related language. Texts include articles, travel guides, emails, adverts and reviews.",
+    "kategori": "Reading practice to help you understand texts with everyday or job-related language. Texts include articles, travel guides, emails, adverts and reviews."
+  },
+  {
+    "id": 4,
+    "judul": "B2 reading\n\n\nReading practice to help you understand texts with a wide vocabulary where you may need to consider the writer's opinion. Texts include articles, reports, messages, short stories and reviews.",
+    "kategori": "Reading practice to help you understand texts with a wide vocabulary where you may need to consider the writer's opinion. Texts include articles, reports, messages, short stories and reviews."
+  },
+  {
+    "id": 5,
+    "judul": "C1 reading\n\n\nReading practice to help you understand long, complex texts about a wide variety of topics, some of which may be unfamiliar. Texts include specialised articles, biographies and summaries.",
+    "kategori": "Reading practice to help you understand long, complex texts about a wide variety of topics, some of which may be unfamiliar. Texts include specialised articles, biographies and summaries."
+  }
+]
