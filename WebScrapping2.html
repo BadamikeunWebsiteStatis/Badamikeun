@@ -15,14 +15,25 @@
         $(function(){
             
             //mengambil data dari file json
-            $.getJSON('HasilScraping.json',function(soup){
+        //     $.getJSON('HasilScraping.json',function(soup){
+        //         var str = "<table border=1>";
+        //         str +="<tr><td>No</td><td class='tables'>Judul</td><td class='tables'>Kategori</td>s</tr>";
+        //         $.each(soup,function(n,result){
+        //             str +=`<tr><td>${result.img_src}<tr><td>${result.film}</td><td class='tables'>${result.rating}</td><td class='tables'>${result.image_url}</td>s</tr>`;
+        //             // str +="<td class='tables'>" + result.id + "</td>";
+        //             // str +="<td class='tables'>" + result.judul + "</td>";
+        //             // str +="<td class='tables'>" + result.kategori + "</td>";
+        //         });
+        //         str +="</table>";
+        //         $('#HasilScraping_json').html(str);
+        //     });
+        // }); 
+
+        $.getJSON('HasilScraping.json',function(soup){
                 var str = "<table border=1>";
-                str +="<tr><td>No</td><td class='tables'>Judul</td><td class='tables'>Kategori</td>s</tr>";
+                str +="<tr><td class='tables'>Film</td><td class='tables'>Judul</td><td class='tables'>Rating</td></tr>";
                 $.each(soup,function(n,result){
-                    str +=`<tr><td>${result.film}</td><td class='tables'>${result.rating}</td><td class='tables'>${result.image_url}</td>s</tr>`;
-                    // str +="<td class='tables'>" + result.id + "</td>";
-                    // str +="<td class='tables'>" + result.judul + "</td>";
-                    // str +="<td class='tables'>" + result.kategori + "</td>";
+                    str +=`<tr><td class='tables'><img src="${result.image_url}"></td></td><td class='tables'><h3>${result.film}</h3></td><td class='tables'>${result.rating}</td></tr>`;
                 });
                 str +="</table>";
                 $('#HasilScraping_json').html(str);
